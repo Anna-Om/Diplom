@@ -1,0 +1,7 @@
+Ë
+    †ÂÈf×  ã                   óL   — d dl Z d dlZd dlZ ej                  d«      d„ «       Zy)é    NuR   Ğ“ĞµĞ½ĞµÑ€Ğ°Ñ†Ğ¸Ñ ÑĞ»ÑƒÑ‡Ğ°Ğ¹Ğ½Ñ‹Ñ… Ğ´Ğ°Ğ½Ğ½Ñ‹Ñ… Ğ´Ğ»Ñ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ñc                  óş   — dt        j                  dd«      › d} dj                  t        j                  t        j
+                  t        j                  z   d¬«      «      }dt        j                  dd	«      › }| ||d
+œS )Nz
+test-data-é   i'  z
+@yandex.ruÚ é   )ÚkÚTestUseréd   ©ÚemailÚpasswordÚname)ÚrandomÚrandintÚjoinÚchoicesÚstringÚascii_lettersÚdigitsr
+   s      ú2C:\Users\ermak\PycharmProjects\Diplom_3\helpers.pyÚgenerate_user_datar      so   € àœŸ™¨¨5Ó1Ğ2°*Ğ=€EØw‰w”v—~‘~¤f×&:Ñ&:¼V¿]¹]Ñ&JÈaÔPÓQ€HØ”f—n‘n Q¨Ó,Ğ-Ğ.€DàØØñğ ó    )r   r   ÚallureÚstepr   © r   r   ú<module>r      s/   ğÛ Û Û ğ €‡ĞaÓbñó cñr   

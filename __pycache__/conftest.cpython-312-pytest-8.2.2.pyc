@@ -1,0 +1,31 @@
+Ë
+    }Ğf)  ã            
+       ó–  — d dl Zd dlmc mZ d dlZd dlmZ d dl	Z	d dl
+Z
+d dlZd dlmZ d dlmZmZmZ d dlmZ d dlmZ d dlmZ d dlmZ d d	lmZ d d
+lmZ e
+j<                  j?                  d ej<                  jA                  ej<                  jC                  ej<                  jE                  e#«      d«      «      «        e	jH                  dg¬«      d„ «       Z% e	jH                  d¬«      d„ «       Z&e	jH                  d„ «       Z' e	jH                  «       d„ «       Z( e	jH                  «       d„ «       Z) e	jH                  «       d„ «       Z*y)é    N)Ú	webdriver)Úgenerate_user_data)ÚURLÚCREATE_USERÚDELETE_USER)ÚService)ÚConstructorPage)ÚOrderFeedPage)ÚAuthorizationsPage)ÚPersonalAccountPage©ÚPasswordRecoveryPagez..Úchrome)Úparamsc              #   ó¶  K  — | j                   dk(  rXt        j                  «       }t        «       }|j	                  d«       |j	                  d«       t        j
+                  ||¬«      }nE| j                   dk(  r+t        j                  «       }t        j                  |¬«      }nt        d«      ‚|j                  t        «       |–— |j                  «        y ­w)Nr   z--disable-infobarsz--disable-notifications)ÚserviceÚoptionsÚfirefox)r   zDriver is not found)Úparamr   ÚChromeOptionsr   Úadd_argumentÚChromeÚFirefoxOptionsÚFirefoxÚ	TypeErrorÚgetr   Úquit)ÚrequestÚchrome_optionsr   ÚdriverÚfirefox_optionss        ú3C:\Users\ermak\PycharmProjects\Diplom_3\conftest.pyÚbrowserr#      s¦   è ø€ à‡}}˜Ò Ü"×0Ñ0Ó2ˆÜ“)ˆØ×#Ñ#Ğ$8Ô9Ø×#Ñ#Ğ$=Ô>Ü×!Ñ!¨'¸>ÔJ‰Ø	‰˜)Ò	#Ü#×2Ñ2Ó4ˆÜ×"Ñ"¨?Ô;‰äĞ-Ó.Ğ.Ø
+‡JJŒs„OØ
+‚LØ
+‡KK…Mùs   ‚CCÚfunction)Úscopec               #   óŞ   K  — t        «       } t        j                  t        t        z   | ¬«      }|| f–— |j                  «       d   }t        j                  t        t        z   d|i¬«       y­w)u`   
+    Ğ¤Ğ¸ĞºÑÑ‚ÑƒÑ€Ğ° Ğ´Ğ»Ñ ÑĞ¾Ğ·Ğ´Ğ°Ğ½Ğ¸Ñ Ğ¸ ÑƒĞ´Ğ°Ğ»ĞµĞ½Ğ¸Ñ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ñ.
+    )ÚjsonÚaccessTokenÚAuthorization)ÚheadersN)r   ÚrequestsÚpostr   r   r'   Údeleter   )ÚpayloadÚresponseÚaccess_tokens      r"   Úcreate_and_delete_userr1   &   sX   è ø€ ô
+ !Ó"€GÜ}‰}œS¤;Ñ.°WÔ=€HØ
+GĞ
+ÒØ—=‘=“? =Ñ1€LÜ‡OO”Cœ+Ñ%°ÀĞ/NÖOùs   ‚A+A-c              #   ó€   K  — |\  }}|d   }|d   }t        | «      }t        | «      }t        | «      }||||||f–— y ­w©NÚemailÚpassword)r   r	   r
+   )	r#   r1   r/   r.   r4   r5   ÚauthÚconstructorÚorder_feed_pages	            r"   Úprepare_for_constructorr9   1   sU   è ø€ à.Ñ€HˆgØGÑ€EØzÑ"€HÜ˜gÓ&€DÜ! 'Ó*€KÜ# GÓ,€OØ
+E˜8 T¨;¸Ğ
+GÓGùs   ‚<>c              #   ó˜   K  — |\  }}|d   }|d   }t        | «      }t        | «      }t        | «      }t        | «      }	|||||||	f–— y ­wr3   )r   r
+   r   r	   )
+r#   r1   r/   r.   r4   r5   r6   r8   Úpersonal_accountr7   s
+             r"   Úprepare_for_orderr<   ;   sc   è ø€ à.Ñ€HˆgØGÑ€EØzÑ"€HÜ˜gÓ&€DÜ# GÓ,€OÜ*¨7Ó3ĞÜ! 'Ó*€KØ
+E˜8 T¨?Ğ<LÈkĞ
+YÓYùs   ‚AA
+c              #   ó*   K  — t        | «      }|–— y ­w)Nr   )r#   Úrecovery_pages     r"   Úprepare_for_recovery_passwordr?   F   s   è ø€ ä(¨Ó1€MØ
+Óùs   ‚c              #   óh   K  — |\  }}|d   }|d   }t        | «      }t        | «      }|||||f–— y ­wr3   )r   r   )r#   r1   r/   r.   r4   r5   r;   r6   s           r"   Úprepare_for_personal_accountrA   K   sK   è ø€ à.Ñ€HˆgØGÑ€EØzÑ"€HÜ*¨7Ó3ĞÜ˜gÓ&€DØ
+E˜8Ğ%5°tĞ
+;Ó;ùs   ‚02)+ÚbuiltinsÚ@py_builtinsÚ_pytest.assertion.rewriteÚ	assertionÚrewriteÚ
+@pytest_arr+   Úseleniumr   ÚpytestÚsysÚosÚhelpersr   Úurlr   r   r   Ú!selenium.webdriver.chrome.servicer   Úpages.constructor_pager	   Úpages.order_feed_pager
+   Úpages.authorizations_pager   Úpages.personal_account_pager   Úpages.password_recovery_pager   ÚpathÚinsertÚabspathÚjoinÚdirnameÚ__file__Úfixturer#   r1   r9   r<   r?   rA   © ó    r"   ú<module>r]      s%  ğß  „ ƒİ Û Û 
+Û 	İ &ß -Ñ -İ 5İ 2İ /İ 8İ ;İ =ğ ‡‡2—7‘7—?‘? 2§7¡7§<¡<°·±·±ÀÓ0IÈ4Ó#PÓQÔ Rğ €‡˜zÔ"ñó #ğğ" €‡jÔ!ñPó "ğPğ ‡ñHó ğHğ €‡ÓñZó ğZğ €‡Óñó ğğ €‡Óñ<ó ñ<r\   
